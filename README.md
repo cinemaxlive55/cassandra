@@ -200,6 +200,10 @@ Any containers linked in the run command will also be added to the seed list.  T
         docker run -d --name cass3 --link cass1:cass1 poklet/cassandra
         # and so on...
 
+Load Balance
+--------------------------------	
+	https://andreastech.wordpress.com/2018/04/11/cassandra-load-balancing-for-spring-clients/
+
 Specifying clustering parameters
 --------------------------------
 
